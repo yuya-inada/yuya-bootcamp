@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css font-style</title>
+
+    <style>
+        .italic{
+            font-style: italic;
+            font-family: sans-serif;
+        }
+
+        .oblique{
+            font-style: oblique;
+            font-family: sans-serif;
+        }
+
+        .apply-style{
+            font-family: serif;
+            font-style:italic;
+        }
+        .normal{
+            font-style: normal;
+        }
+
+        .uppercase{
+            text-transform: uppercase;
+            font-family: arial, Helvetica, sans-serif;
+        }
+        .lowercase{
+            text-transform: lowercase;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .capitalize{
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .overline{
+            text-decoration: overline;
+            font-family: 'Courier New', Courier, monospace
+        }
+        .underline{
+            text-decoration: underline;
+            font-family: 'Courier New', Courier, monospace
+        }
+        .line-through{
+            text-decoration: line-through;
+            font-family: 'Courier New', Courier, monospace
+        }
+        .none{
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace
+        }
+        .right{
+            text-align: right;
+            font-family:'segoe UI''Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        .center{
+            text-align: center;
+            font-family:'segoe UI''Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        .text-align{
+            text-align: center;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+        .text-align p{
+            text-align: left;
+        }
+        .using-px{
+            letter-spacing: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .using-em{
+            letter-spacing: 1.5em;
+            font-family: sans-serif
+        }
+        .word-px{
+            word-spacing: 20px;
+            font-family: serif;
+        }
+        .word-em{
+            word-spacing: 1.5em;
+            font-family: serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Font-style</h2>
+    <p class="italic">font style= italic</p>
+    <p class="oblique">font style= oblique</p>
+    <p class="apply-styale">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="normal">At, corporis!</span></p>
+
+    <h2>text transform</h2>
+    <p class="uppercase">text in uppercase</p>
+    <p class="lowercase">text in lowercase</p>
+    <p class="capitalize">text in caputalize</p>
+
+    <h2>text ddecoration</h2>
+    <p class="overline">text in overlin</p>
+    <p class="underline">text in underlin</p>
+    <p class="line-through">text in line-through</p>
+    <a href="https://kredo.jp" class="none">text remove decoration</a>
+
+    <h2>text align</h2>
+    <p class="right">text align right</p>
+    <p class="center">text align center</p>
+    <div class="text-align">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p>
+        <a href="">Learn More</a>
+
+        <h2>letter spacing</h2>
+        <p class="using-px">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, ipsum.</p>
+        <P class="using-em">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquam!</P>
+
+        <h2>word spacing</h2>
+        <p class="word-px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, officia.</p>
+        <p class="word-em">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, possimus.</p>
+    </body>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Property</title>
+
+<style>
+    .outside-box{
+        width: 250px;
+        height: 250px;
+        background-color: black;
+        color: white;
+        /*1 value Margin
+        margin: 35px;*/
+
+        /*2 value Margin --first value(top and bottom),second value is for(right and left)*/
+        /*margin: 35px 40px;*/
+
+        /*3 value Margin --first value(top),second value is for(right and left)*/
+        /*margin: 25px 25px 50px;*/
+
+        /*4 value margin*/
+        /*First value - top
+        /*second value - right
+        /*third value - bottom
+        /*fourth vakue - left*/
+        margin: 25px 35px 40px 30px;
+    }
+    .inside-box{
+        width: 150px;
+        height: 150px;
+        background-color: tomato;
+        color: white;
+
+        /* Apply matgin on individual slides*/
+        margin-top: 35px;
+        margin-right: 35px;
+        margin-bottom: 35px;
+        margin-left: 60px;
+
+        /* Padding */
+        /* 1 value padding  */
+        /*padding: 25px;*/
+
+        /*2 value padding --first value(top and bottom),second value is for(right and left)*/
+        /*padding: 25px 35px;*/
+
+        /*3 value Margin --first value(top),second value is for(right and left)*/
+        /*padding: 25px 35px 30px;*/
+        
+        /*4 value margin*/
+        /*First value - top
+        /*second value - right
+        /*third value - bottom
+        /*fourth vakue - left*/
+        padding: 55px 55px 55px 30px;
+
+    }
+    /* In Box:
+    * Add background color: brown
+    * Add a 3 value margin -- any value
+    * Add a 3 value padding -- any value
+    * Make the color if the text into white
+    * Make the font family : arial sans-serif
+    * Make the font-style to italic*/
+    .box3{
+        background-color: brown;
+        margin: 30px 25px 35px;
+        padding: 20px 40px 45px;
+        color: #ffff;
+        font-family: arial sans-serif;
+        font-style: italic;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="outside-box">
+        Outside Box
+        <div class="inside-box">
+            Inside Box
+        </div>
+        <div class="box3">
+            This is the box 3
+        </div>
+
+    </div>
+    
+</body>
+</html>

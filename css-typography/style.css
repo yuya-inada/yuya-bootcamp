@@ -1,0 +1,21 @@
+
+
+.s-salmon{
+    color:rgb(250, 128, 114);
+    opacity: 1;
+    font-family:Verdana;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/*.s-salmon{
+    color:rgba(250, 128, 114, 1);
+}*/
+
+/*.s-salmon{
+    color:#472521;
+}*/
+
+/*.s-salmon{
+    color: coral;
+}*/

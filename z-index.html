@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+</head>
+
+    <style>
+        .wrapper{
+            position: relative;
+        }
+
+        .dashed-box{
+            z-index: 2;
+            position: relative;
+            border: dashed;
+            height: 8em;
+            margin-bottom: 1em;
+            margin-top: 2em;
+            background-color: red;
+        }
+
+        .gold-box{
+            z-index: 3;
+            position: absolute;
+            background-color: gold;
+            width: 80%;
+            left: 60px;
+            top: 3em;
+            height: 8em;
+        }
+
+        .green-box{
+            z-index: 1;
+            position: absolute;
+            background-color: lightgreen;
+            width: 20%;
+            left: 65%;
+            top: -25px;
+            height: 7em;
+            opacity: 0.9;
+        }
+
+    </style>
+
+<body>
+
+    <di class="wrapper">
+        <div class="dashed-box">Dashed Box</div>
+        <div class="gold-box">Gold Box</div>
+        <div class="green-box">Green Box</div>
+    </di>
+    
+</body>
+</html>

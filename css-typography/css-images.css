@@ -1,0 +1,8 @@
+.using-px{
+    width: 100px;
+    height: 100px;
+}
+.using-percent{
+    width: 100%;
+    height: 100%;
+}

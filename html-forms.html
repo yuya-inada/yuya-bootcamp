@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h2> HTML Forms </h2>
+
+    <form method="post">
+    <table width="40%">
+        <tr>
+            <td> 
+                <label for="first-name"> First Name </label> 
+                <input type="text" id="first-name" name="first-name"
+                    placeholder="Enter first-name" required>
+            </td>        
+        </tr>
+
+        <tr>
+            <td>
+                <label for="age">Age</label><br>
+                <input type="number" name="age" id="age" min="5" max="50">
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label for="last-name"> Last Name </label> </td>
+            <td> <input type="text" id="last-name" name="last-name"></td>
+        </tr>
+
+        <tr>
+            <td> <label for="username"> Username </label> </td>
+            <td> <input type="text" id="username" name="username"></td>
+        </tr>
+
+        <tr>
+            <td> <label for="pw"> Password </label> </td>
+            <td> <input type="password" id="pw" name="username"></td>
+        </tr>
+
+        <tr>
+            <td> <label for="bday"> Birthday </label> </td>
+            <td> <input type="date" id="bday" name="bday"></td>
+        </tr>
+
+        <tr>
+            <td> <label for="email"> Email </label> </td>
+            <td> <input type="email" id="email" name="email"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"> <label for="comments"> comments </label> </td>
+        </tr>
+
+        <tr>
+            <td colspan="2"> <textarea id="comments" cols="50" rows="10"></textarea> </td>
+        </tr>
+
+        <tr>
+            <td colspan="2"> Select music </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="radio" name="music" id="rock" value="rock">
+                <label for="rock">Rock</label>
+                <input type="radio" name="music" id="rock" value="pop">
+                <label for="rock">pop music</label>
+                <input type="radio" name="music" id="rock" value="jazz">
+                <label for="rock">rap</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Please select your favarite food:</p>
+                <input type="checkbox" name="food" id="ramen" value="ramen">
+                <label for="ramen">Ramen</label>
+                <input type="checkbox" name="food" id="sushi" value="sushi">
+                <label for="sushi">Sushi</label>
+                <input type="checkbox" name="food" id="curry" value="curry">
+                <label for="curry">Curry</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>What is your device?</p>
+                <select name="device" id="device">
+                    <option value="macbook">Macbook</option>
+                    <option value="ipad">Ipad</option>
+                    <option value="iphone">Iphone</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Select a car:</p>
+                <select name="car" multiple>
+                    <option value="toyota">Toyota</option>
+                    <option value="nissan">Nissan</option>
+                    <option value="honda">Honda</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <lable for="file">Upload files:</lable><br>
+                <input type="file" name="file" id="file"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" name="submit" value="submit"><br>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
